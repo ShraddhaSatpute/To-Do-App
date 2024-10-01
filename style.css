@@ -1,0 +1,64 @@
+body{
+    background-image: url('https://img.freepik.com/premium-photo/todo-list-icon-notepad-with-completed-todo-list-pencil-3d-rendering_471402-324.jpg?w=900')
+}
+
+.todo-container{
+    background-color:white;
+    text-align: center;
+    width: fit-content;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 14rem;
+}
+
+button{
+    background-color: rgb(132, 196, 43);
+    color:white;
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius:4px;
+}
+
+input{
+    padding:0.5rem;
+    font-size:20px;
+}
+
+li{
+    background-color: white;
+    margin-bottom:10px;
+    padding:10px;
+    border-radius:4px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.edit-btn, 
+.delete-btn{
+    border:none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.edit-btn:hover{
+    background-color: rgb(3, 44, 3);
+}
+
+.delete-btn{
+    background-color: rgb(239, 59, 59);
+}
+
+.delete-btn:hover{
+    background-color: rgb(154, 0, 0);
+}
+
+#add-task-button{
+    background-color:rgb(57, 188, 221)
+}
+
+#add-task-button:hover{
+    background-color: rgb(3, 98, 136);
+}
